@@ -17,6 +17,14 @@ body {
   margin: 0 !important;
 }
 
+.date {
+  color: white;
+  margin-left: 20px;
+  line-height: 60px;
+  margin-bottom: 0;
+  height: 20px;
+}
+
 .block-title {
   color: rgba(3, 3, 3, 0.4);
 }
@@ -30,7 +38,8 @@ body {
 }
 
 .vs {
-  position: relative;
+  display: flex;
+  justify-content: center;
   width: 32px;
   height: 32px;
   background-color: black;
@@ -38,6 +47,7 @@ body {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  line-height: 32px;
 }
 
 .debate-image {
@@ -72,4 +82,90 @@ body {
 
 .input {
   border: 1px solid rgba(3, 3, 3, 0.4);
+}
+
+.hr-wide {
+  height: 4px !important;
+}
+
+.newsweek-footer-logo {
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.social-section {
+  margin-left: 20px;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  line-height: 36px;
+}
+
+.center-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsweek-navbar-svg {
+  width: 396px;
+  height: 60px;
+  margin: 10px auto 10px;
+  fill: white;
+}
+
+.main-bar {
+  background-color: #f72210;
+}
+
+.navbar-secondary {
+  background-color: white;
+}
+
+.hr-no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-button {
+  background: none;
+  margin-right: 6px;
+  font-weight: 700;
+  color: white;
+}
+
+.subscribe-bar-button {
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #ffe400;
+  color: black;
+  border-radius: 24px;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.right-divider {
+  border-right: 1px solid rgb(196, 196, 196);
+  font-weight: 750;
+}
+
+.search-input {
+  width: 70px;
+  margin-left: 10px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.magnifier-icon {
+  width: 20px;
 }
