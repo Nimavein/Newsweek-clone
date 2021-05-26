@@ -25,6 +25,10 @@ body {
   border: none !important;
 }
 
+.card-body {
+  padding-left: 0 !important;
+}
+
 .vs {
   position: relative;
   width: 32px;
