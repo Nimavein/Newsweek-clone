@@ -1,6 +1,11 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #f4f5f6 !important;
+}
+
+.content {
+  background-color: white !important;
 }
 
 * {
@@ -19,6 +24,7 @@ body {
 }
 
 .vs {
+  position: relative;
   width: 32px;
   height: 32px;
   background-color: black;
@@ -30,4 +36,34 @@ body {
 
 .debate-image {
   margin-right: 10px !important;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.debate-person {
+  font-size: 13px;
+}
+
+.poster {
+  min-height: 100%;
+}
+
+.sub-background {
+  background-color: #f4f5f6;
+  padding: 60px 30px 60px 30px;
+}
+
+.sub-text {
+  padding: 40px;
+}
+
+.newsletter {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.jpg?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  height: 100%;
+}
+
+.input {
+  border: 1px solid rgba(3, 3, 3, 0.4);
 }
